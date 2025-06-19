@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marcus lins | Portfolio para o Lab da DIO</title>
+  <meta name="description" content="Portfólio da desenvolvedora front-end Elidiana Andrade para compartilhar projetos e habilidades desenvolvidas.">
+
+  <link rel="shortcut icon" href="/assets/images/logo2.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="header__nav">
+      <ul class="menu menu--principal">
+        <li class="menu__item">
+          <a class="menu__link active" href="#home">
+            <span class="menu__text">Home</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#projetos">
+            <span class="menu__text">Projetos</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#sobre">
+            <span class="menu__text">Sobre</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#contato">
+            <span class="menu__text">Contato</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="header__brand">
+      <a href="#home">
+        <img class="brand__logo" src="assets/images/logo2.png" alt="Logo EA">
+      </a>
+    </div>
+    <div class="header__toggle">
+      <i id="toggleTheme" class="bi bi-sun">claro/escuro</i>
+    </div>
+  </header>
+  <nav class="nav--mobile">
+    <ul class="menu menu--mobile">
+      <li class="menu__item">
+        <a class="menu__link active" href="#home">
+          <i class="menu__icon bi bi-house-door"></i>
+          <span class="menu__text">Home</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#projetos">
+          <i class="menu__icon bi bi-window-stack"></i>
+          <span class="menu__text">Projetos</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#sobre">
+          <i class="menu__icon bi bi-person"></i>
+          <span class="menu__text">Sobre</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#contato">
+          <i class="menu__icon bi bi-envelope"></i>
+          <span class="menu__text">Contato</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <main id="home">
+    <div class="main__content1">
+      <h1><b>Soluções Criativas &</b> Desenvolvimento Front-end</h1>
+      <p>Marcus Lins, Paulista-PE, Desenvolvedor Front-end.</p> 
+      <ul class="menu menu--social">
+        <li>
+          <a class="menu__link" href="https://github.com/MarcussPablo" target="_blank">
+            <i class="menu__icon bi bi-github"></i>
+          </a>
+        </li>
+        <li>
+          <a class="menu__link" href="https://www.linkedin.com/in/marcuslinsdev/" target="_blank">
+            <i class="menu__icon bi bi-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a class="menu__link" href="https://www.instagram.com/marcus_lins_dev/" target="_blank">
+            <i class="menu__icon bi bi-instagram"></i>
+          </a>
+        </li>
+      </ul>
+      <a href="#projetos">
+        <button class="btn btn--primary">
+          <span>Ver Projetos</span>
+          <i class="bi bi-arrow-down-right"></i>
+        </button>  
+      </a>
+    </div>
+<div class="main__content2">
+  <iframe
+    src="https://www.youtube.com/embed/eOaZkR2VilI"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen>
+  </iframe>
+</div>
+
+  </main>
+
+  <section class="technologies">
+    <h2>Conhecimento nas principais tecnologias do mercado</h2>
+    <ul class="technologies__list">
+      <li class="technologies__item">
+        <img class="technologies__logo technologies__logo--react" src="assets/images/technologies/logo-react.svg" alt="Logo React">
+      </li>
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/technologies/TypeScript.svg" alt="Logo TypeScript">
+      </li>
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/technologies/Bootstrap.svg" alt="Logo Bootstrap">
+      </li>
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/technologies/SASS.svg" alt="Logo SASS">
+      </li>
+    </ul>
+  </section>
+
+  <section id="projetos" class="projects">
+    <h2>Projetos</h2>
+    <div class="projects__container">
+      <div class="projects__card">
+        <img class="card__cover" src="assets/images/pokereact.png" alt="Capa pokereact">
+        <div class="card__body">
+          <h3 class="card__title">Pokedex React</h3>
+          <p class="card__description">Listagem Pokemon fetch pokeAPI</p>
+          <ul class="card__list">
+            <li class="card__item">Cerregar mais de 1000 caracteries;</li>
+            <li class="card__item">Detalhes do pokemon;</li>
+          </ul>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img class="technologies__logo technologies__logo--react" src="assets/images/technologies/logo-react.svg" alt="Logo React">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo technologies__logo--react" src="assets/images/technologies/icons8-javascript-50.svg" alt="Logo JavaScript">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/Bootstrap.svg" alt="Logo Bootstrap">
+            </li>
+          </ul>
+          <div class="card__buttons">
+              <a  class="btn btn--primary" href="https://pokreact.netlify.app/" target="_blank">
+                <span>Ver online</span><i class="bi bi-arrow-up-right"></i>
+              </a>  
+            <button class="btn">
+              <a href="https://github.com/MarcussPablo/PokeDex-React" target="_blank">
+                 <span>Repositório</span>
+              </a>
+            </button>  
+          </div>
+        </div>
+      </div>
+      <div class="projects__card card--reverse">
+        <img class="card__cover" src="assets/images/ecommerce.png" alt="Capa Archstil">
+        <div class="card__body">
+          <h3 class="card__title">Fake Ecommerce fetch</h3>
+          <p class="card__description">Front de ecommerce com fetch em fakestoreAPi.</p>
+          <ul class="card__list">
+            <li class="card__item">Uso e hooks;</li>
+            <li class="card__item">Carrinho de compras soma valores;</li>
+            <li class="card__item">Add e Remover do carrinho.</li>
+            <li class="card__item">Mensagem ao adicionar item.</li>
+          </ul>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img class="technologies__logo technologies__logo--react" src="assets/images/technologies/logo-react.svg" alt="Logo React">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo technologies__logo--react" src="assets/images/technologies/icons8-javascript-50.svg" alt="Logo JavaScript">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/Bootstrap.svg" alt="Logo Bootstrap">
+            </li>
+          </ul>
+          <div class="card__buttons">
+              <a  class="btn btn--primary" href="https://clever-torrone-4b25b7.netlify.app/" target="_blank">
+                <span>Ver online</span><i class="bi bi-arrow-up-right"></i>
+              </a>  
+            <button class="btn">
+              <a href="https://github.com/MarcussPablo/2-Ecoomerce-Complete" target="_blank">
+                <span>Repositório</span>
+              </a>
+            </button>  
+          </div>
+        </div>
+      </div>
+      <div class="projects__card">
+        <img class="card__cover" src="assets/images/task-list-apu.png" alt="Capa Games Store">
+        <div class="card__body">
+          <h3 class="card__title">Task-list React</h3>
+          <p class="card__description">3/4 de crud com jsonplaceholder.</p>
+          <ul class="card__list">
+            <li class="card__item">Remover item;</li>
+            <li class="card__item">Deletar item;</li>
+            <li class="card__item">Atualizar item.</li>
+          </ul>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img class="technologies__logo technologies__logo--react" src="assets/images/technologies/logo-react.svg" alt="Logo React">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo technologies__logo--react" src="assets/images/technologies/icons8-javascript-50.svg" alt="Logo JavaScript">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/Bootstrap.svg" alt="Logo Bootstrap">
+            </li>
+            <!-- <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/SASS.svg" alt="Logo SASS">
+            </li> -->
+          </ul>
+          <div class="card__buttons">
+              <a  class="btn btn--primary" href="https://task-list-api.netlify.app//" target="_blank">
+                <span>Ver online</span><i class="bi bi-arrow-up-right"></i>
+              </a>  
+            <button class="btn">
+              <a href="https://github.com/MarcussPablo/TaskLIst-Api-3-4-crud" target="_blank">
+                <span>Repositório</span>
+              </a>
+              
+            </button>  
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com/MarcussPablo/">
+        <button class="btn btn--primary">
+          <span>Ver Todos os Projetos</span>
+          <i class="bi bi-arrow-up-right"></i>
+        </button>  
+      </a>
+    </div>
+  </section>
+
+  <section id="sobre" class="about">
+    <div class="about__content1">
+      <img class="about__photo" src="assets/images/avatar.png" alt="">
+      <div class="about__description">
+        <h2>Sobre mim</h2>
+        <p>Marcus lins. Apaixonado por tecnologia, meu primeiro "Hello World" foi uma janela que se abriu em uma vida de portas fechadas. Atualmente curso Annálise e Desenvolvimento de Sistemas na UNINSSAU e entrando na área de desenvolnvimento web por meio de freelances.
+        </p>  
+        <div class="about__icons">
+          <i class="bi bi-translate"></i>
+          <span>Inglês: Intermediário </span>
+        </div>
+        <div class="description__buttons">
+          <a href="https://www.linkedin.com/in/marcuslinsdev/" target="_blank">
+            <button class="btn btn--primary">
+              <span>Conecte-se Comigo</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </button> 
+          </a>
+          <a href="">
+            <button class="btn">
+              <span>Currículo</span>
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="about__content2">
+      <div class="col1">
+        <div class="row1">
+          <h3>Formação</h3>
+          <h4>Análise e desenvolnvimento de sistemas</h4>
+          <span>Fev 2025 - Atualmente</span>
+          <div class="about__icons">
+            <i class="bi bi-bank"></i>
+            <span>UNINSSAU</span>
+          </div>
+        </div>
+        <div class="row2">
+          <h3>Experiências</h3>
+          <h4>Sem experiência</h4>
+
+        </div>
+      </div>
+      <div class="col2">
+        <h3>Cursos</h3>
+        <div id="accordion">
+          <div class="accordion__item active">
+            <button class="accordion__header end">
+              <span>Bootcamp GFT Start 2024.</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body end">
+              <img class="diploma" src="https://hermes.dio.me/certificates/cover/EVPT6FMR.jpg" alt="certificado GFT START">
+            </div>
+          </div>
+          <div class="accordion__item ">
+            <button class="accordion__header start">
+              <span>Digital Innovation one - JavaScript.</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body">
+              <img class="diploma" src="https://hermes.dio.me/certificates/cover/G0W1USAF.jpg" alt="diploma javascript">
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button class="accordion__header">
+              <span>Digital Innovation one - CSS.</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body">
+              <img class="diploma" src="https://hermes.dio.me/certificates/cover/V51XTQPH.jpg" alt="certificado css">
+            </div>
+          </div>
+        </div>
+  </section>
+  
+  <section id="contato" class="contact">
+    <h2>Contate-me</h2>
+    <p>Estou disponível para serviços e novas conexões. Contate-me via 
+      e-mail e conecte-se comigo através das minhas redes sociais.
+    </p>
+    <ul class="menu menu--social">
+      <li>
+        <a class="menu__link" href="https://github.com/MarcussPablo" target="_blank">
+          <i class="menu__icon bi bi-github"></i>
+          <span>GitHub</span>
+        </a>
+      </li>
+      <li>
+        <a class="menu__link" href="https://www.linkedin.com/in/marcuslinsdev/" target="_blank">
+          <i class="menu__icon bi bi-linkedin"></i>
+          <span>LinkedIn</span>
+        </a>
+      </li>
+      <li>
+        <a class="menu__link" href="https://www.instagram.com/marcus_lins_dev/" target="_blank">
+          <i class="menu__icon bi bi-instagram"></i>
+          <span>Instagram</span>
+        </a>
+      </li>
+    </ul>
+    <a href="mailto:pavlolins@gmail.com">
+      <button class="btn btn--primary">
+        <span class="email">pavlolins@gmail.com</span>
+      </button>  
+    </a>
+  </section>
+
+  <footer>
+    <p>
+      Marcus Lins © 2025.
+    </p>
+  </footer>
+  <script src="assets/js/scripts.js"></script>
+</body>
+</html>
